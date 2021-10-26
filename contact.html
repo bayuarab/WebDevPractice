@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            height: 40px;
+            width: 100%;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            padding-top: 7px;
+            border-bottom: 2px solid brown;
+            border-top: 2px solid brown;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: rgb(34, 34, 34);
+            padding: 30px;
+            font-size: 14px;
+        }
+        .navbar a:hover{
+            color:brown; 
+        }
+        form {
+            width: 500px;
+            margin: 50px auto 10px;            
+            background-color: rgb(247, 247, 247);
+            border: 1px solid brown;
+            border-radius: 20px;
+        }
+        .input-form {
+            padding: 30px;
+            padding-top: 20px;
+        }
+        input {
+            width: 100%;
+            font-size: 18px;
+            padding-bottom: 7px;
+            margin-bottom: 36px;
+            border-bottom: 1px solid #ccc;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background-color: rgb(247, 247, 247);
+        }
+        textarea{
+            padding: 12px;
+            width: 100%;
+            margin-bottom: 50px;
+            border-color: rgb(199, 199, 199);
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(253, 252, 252);">
+    <header style="width: 100%;">
+        <nav class="navbar">
+            <span><a href="index.html">TRIPS</a></span>
+            <span><a href="about.html">ABOUT</a></span>
+            <span><a href="contact.html">CONTACT</a></span>
+        </nav>
+    </header>
+    <form>
+        <div>
+            <h1 style="text-align: center; margin-bottom: 20px; margin-top: 18px;">Trip Details? Contact</h1>
+        </div>
+        <div class="input-form">
+            <input type="text" name="username" value="" placeholder="Username" required><br>
+            <input type="email" name="email" value="" placeholder="Email" required><br>
+            <div>
+                <p style="font-size: 20px; margin-bottom: 7px;
+                color: grey;">
+                Messages</p>
+                <textarea name="message" cols="30" rows="10" required></textarea>
+            </div>
+            <div>
+                <input style="background-color: #0056ff;
+                padding: 12px 24px; font-size: 18px; color: white;
+                border: None; cursor: pointer; margin-bottom: 10px;"
+                type="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+    <footer 
+    style="font-size: 14px; color: rgb(94, 94, 94); 
+    margin-top: 100px; background-color: rgb(182, 182, 182);
+    height: 30px; padding-top: 7px; text-align: center;">
+    <span>&copy;</span> bayuarab</footer>
+</body>
+</html>
